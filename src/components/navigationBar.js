@@ -16,14 +16,14 @@ const NavigationBar = () => {
         </div>
 
         <nav className="h-full w-[1000px] navButtons  gap-[50px] flex justify-between items-center text-white font-[500] text-[16px] ">
-          <Link href={"#"}>Home</Link>
-          <Link href={"#"}>Find Job</Link>
+          <Link href={"/"}>Home</Link>
+          <Link href={"/findjob"}>Find Job</Link>
           <Link href={"#"}>Fing Talent</Link>
           <Link href={"#"}>Post a job</Link>
           <Link href={"#"}>Shortlist</Link>
           <Link href={"#"}>Community</Link>
           <Link
-            href={"#"}
+            href={"/login"}
             className="h-[49px] w-[147px] flex justify-center items-center bg-customRed rounded-full "
           >
             Login/Signup
